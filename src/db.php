@@ -15,7 +15,7 @@ final class Database
     //Constructor privat (patró Singleton)
     private function __construct() {
         //Configuració de la base de dades (dins del constructor)
-        $host = 'db';
+        $host = '127.0.0.1';
         $dbName = 'mydatabase';
         $user = 'root';
         $password = 'rootpassword';
